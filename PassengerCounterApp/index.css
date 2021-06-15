@@ -1,0 +1,49 @@
+body,html{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(station.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}   
+
+.title, .count{
+    text-align: center;
+    margin: 0;
+}
+.title{
+    margin-top: 1em;
+}
+.count{
+    margin: .5em;
+}
+
+.increment{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    background-color: maroon;
+    padding: 14px 50px;
+    border: 1px solid maroon;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.save{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    padding: 14px 72px;
+    border: 1px solid green;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.previousentries{
+    text-align: center;
+}
